@@ -18,7 +18,7 @@ jobs:
       with:
         image: datascience-notebook
         tags: latest ${{ github.sha }}
-        context: datascience-notebook
+        context: ./datascience-notebook
         containerfiles: |
           ./Dockerfile
 
